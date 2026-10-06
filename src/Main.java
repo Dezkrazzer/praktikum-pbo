@@ -10,6 +10,13 @@ public class Main {
         boboiboyBaik.serang(boboiboyJahat, 50);
 
         // Run-time Polymorph
+        BoboiboyGempa gempa = new BoboiboyGempa("Boboiboy Gempa");
+        BoboiboyHalilintar halilintar = new BoboiboyHalilintar("Boboiboy Halilintar");
+        BoboiboyTopan topan = new BoboiboyTopan("Boboiboy Topan");
+
+        gempa.display();
+        gempa.gunaKuasa();
+
         
     }
 }
