@@ -16,7 +16,18 @@ public class Main {
 
         gempa.display();
         gempa.gunaKuasa();
+        topan.terbang();
 
-        
+        Boboiboy[] daftarBoboiboys = new Boboiboy[3];
+        daftarBoboiboys[0] = gempa;
+        daftarBoboiboys[1] = halilintar;
+        daftarBoboiboys[2] = topan;
+
+        for(Boboiboy boy : daftarBoboiboys) {
+            boy.display();
+            boy.gunaKuasa();
+        }
+
+        ((BoboiboyTopan)daftarBoboiboys[2]).terbang();
     }
 }

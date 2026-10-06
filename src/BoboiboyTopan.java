@@ -16,4 +16,8 @@ public class BoboiboyTopan extends Boboiboy {
     public void gunaKuasa() {
         System.out.println(this.nama + " menggunakan dengan Pusaran Taufan!");
     }
+
+    public void terbang() {
+        System.out.println(this.nama + " terbang menggunakan hoverboard!");
+    }
 }
