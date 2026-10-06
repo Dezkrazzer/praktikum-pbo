@@ -24,8 +24,8 @@ public class Boboiboy {
         System.out.println(this.nama + " menyerang menggunakan " + jurus + "!");
     }
 
-    public void serang(String target, int damage) {
-        System.out.println(this.nama + " menyerang " + target + " dengan damage: " + damage);
+    public void serang(Boboiboy target, int damage) {
+        System.out.println(this.nama + " menyerang " + target.nama + " dengan damage: " + damage);
     }
 
     public void gunaKuasa() {
