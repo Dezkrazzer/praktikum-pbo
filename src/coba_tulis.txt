@@ -1,0 +1,3 @@
+belajar IO
+ini baris kedua
+ini teks yang diappend
